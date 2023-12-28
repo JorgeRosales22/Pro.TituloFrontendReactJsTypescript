@@ -1,0 +1,39 @@
+@import "../node_modules\bootstrap\scss\bootstrap.scss";
+
+
+:root {
+    --color-1: #D98880;
+    --color-2: #FF0033;
+    --color-3: #A9BCC7;
+    --color-4: #D4AA7D;
+    --color-5: #EFD09E;
+    --color-6: #566573;
+    --color-7: #002f58;
+    --color-8: #00446f;
+    --color-9: #00638a;
+    --color-10: #008da1;
+    --color-11: #00c3ac;
+}
+
+.mainbody {
+    background-color: var(--color-11);
+    color: aliceblue;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+footer {
+    background-color: var(--color-3);
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.divnavbar {
+    background-color: #008da1;
+    border-radius: 20px;
+    border-color: var(--color-7);
+    margin: 20px;
+}
+
+
+
